@@ -25,6 +25,8 @@
 
 ## Live Demo
 
+This is my Capeston Project hosted on GitHub pages, so if you want to check my Capeston Project online, please 😊 [Click here](https://mrkamin.github.io/Capeston-Project-JustCold/
+)
 
 ## Getting Started
 
