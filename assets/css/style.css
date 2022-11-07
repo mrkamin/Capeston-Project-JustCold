@@ -53,7 +53,7 @@ textarea {
   --C-LIGHT: #f6f6f6;
   --F-MAIN: "Bai Jamjuree", sans-serif;
   --TRANSEITION: all 0.4 s cubic-bezier(0.165, 0.84, 0.44, 1);
-  --SHADOW: 0px 15px 40px rgba(0, 0, 0, 0.1);
+  --SHADOW: 1px 15px 40px rgba(0, 0, 0, 0.1);
 
   /* || BORDERS */
   --BORDERS: 1px solid var(--BORDER-COLOR);
@@ -297,14 +297,14 @@ a:active {
 
 .sectionone__container__h1 {
   color: var(--C-DARK);
-  width: 700;
+  width: 100%;
   font-size: 1rem;
 }
 
 .sectionone__container__h2 {
   color: var(--C-BRAND);
   font-size: 2rem;
-  width: 700;
+  width: 700%;
 }
 
 .sectionone__container__item > p.sectionone__container__p {
@@ -362,7 +362,7 @@ a:active {
 .sectiontwo__container__item h3 {
   color: red;
   font-size: larger;
-  width: 700;
+  width: 700%;
 }
 
 .sectiontwo__container__item p {
@@ -656,7 +656,7 @@ a:active {
 
 .sectionthree__container__h3.about {
   color: #fff;
-  width: 700;
+  width: 700%;
   font-size: xx-large;
 }
 
@@ -813,14 +813,14 @@ a:active {
 
   .sectionone__container__h1 {
     color: var(--C-DARK);
-    width: 700;
+    width: 700%;
     font-size: 2.5rem;
   }
 
   .sectionone__container__h2 {
     color: var(--C-BRAND);
     font-size: 2rem;
-    width: 700;
+    width: 700%;
   }
 
   .sectionone__container__item > p.sectionone__container__p {
@@ -831,7 +831,7 @@ a:active {
     padding-bottom: 4%;
     color: var(--C-DARK);
     font-size: 22px;
-    width: 900;
+    width: 700%
   }
 
   /* || SECTION TWO */
@@ -1063,7 +1063,7 @@ a:active {
 
   .sectionthree__container__h3.about {
     color: #fff;
-    width: 700;
+    width: 700%;
     font-size: xx-large;
   }
 
