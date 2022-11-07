@@ -1,10 +1,14 @@
-window.onscroll = function () {
+/* window.onscroll = function () {
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
     document.getElementById('navbar').classList.add('scrolled');
   } else {
     document.getElementById('navbar').classList.remove('scrolled');
   }
-};
+}; */
+
+/* AOS.init({
+  duration: 800,
+}); */
 
 const presenters = [
   {
@@ -51,7 +55,7 @@ const presenters = [
   },
 ];
 
-//==============================================================================
+// ==============================================================================
 const humberger = document.querySelector('.container > .navbar-toggler');
 const menue = document.querySelector('.navbar-nav');
 const allParteners = document.querySelector('#sectionthree__container__items');
@@ -67,17 +71,15 @@ humberger.addEventListener('click', (e) => {
     menue.classList.add('active');
   }
 });
-//===============================================================================
 
-AOS.init({
-  duration: 800,
-});
+// ===============================================================================
+
+
 // ===============================================================================
 
 presenters.forEach((presenter) => {
-  allParteners.innerHTML += `
-        
-  <div id="sectionthree__container__items__item" class="sectionthree__container__items__item" data-aos="fade-up" data-aos-delay="100">
+  allParteners.innerHTML += `        
+  <div id="sectionthree__container__items__item" class="sectionthree__container__items__item">
   <div id="sectionthree__container__items__item__left" class="sectionthree__container__items__item__left">
   <div id="sectionthree__container__items__item__left__bgpic" class="sectionthree__container__items__item__left__bgpic">   
              <img src="${presenter.image}" alt="${
@@ -95,8 +97,7 @@ presenters.forEach((presenter) => {
               <p id="sectionthree__container__items__item__right__p" class="sectionthree__container__items__item__right__p">${
                 presenter.discription
               }</p>
-          
-        </div>
+          </div>
         </div>`;
 });
 // =====================================================================================
