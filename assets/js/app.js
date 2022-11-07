@@ -74,30 +74,21 @@ humberger.addEventListener('click', (e) => {
 
 // ===============================================================================
 
-
 // ===============================================================================
 
 presenters.forEach((presenter) => {
   allParteners.innerHTML += `        
   <div id="sectionthree__container__items__item" class="sectionthree__container__items__item">
   <div id="sectionthree__container__items__item__left" class="sectionthree__container__items__item__left">
-  <div id="sectionthree__container__items__item__left__bgpic" class="sectionthree__container__items__item__left__bgpic">   
-             <img src="${presenter.image}" alt="${
-    presenter - 1
-  }" id="sectionthree__container__items__item__left__img" class="sectionthree__container__items__item__left__img">
-            </div>
-          </div>
-          <div id="sectionthree__container__items__item__right" class="sectionthree__container__items__item__right">
-              <h2 id="sectionthree__container__items__item__right__h2" class="sectionthree__container____items__item__righth2">${
-                presenter.name
-              }</h2>
-              <h3 id="sectionthree__container__items__item__right__h3" class="sectionthree__container__items__item__right__h3">${
-                presenter.jobTitle
-              }</h3>
-              <p id="sectionthree__container__items__item__right__p" class="sectionthree__container__items__item__right__p">${
-                presenter.discription
-              }</p>
-          </div>
-        </div>`;
+  <div id="sectionthree__container__items__item__left__bgpic" class="sectionthree__container__items__item__left__bgpic">
+  <img src="${presenter.image}" alt="${presenter - 1}" id="sectionthree__container__items__item__left__img" class="sectionthree__container__items__item__left__img">
+  </div>
+  </div>
+  <div id="sectionthree__container__items__item__right" class="sectionthree__container__items__item__right">
+  <h2 id="sectionthree__container__items__item__right__h2" class="sectionthree__container____items__item__righth2">${presenter.name}</h2>
+  <h3 id="sectionthree__container__items__item__right__h3" class="sectionthree__container__items__item__right__h3">${presenter.jobTitle}</h3>
+  <p id="sectionthree__container__items__item__right__p" class="sectionthree__container__items__item__right__p">${presenter.discription}</p>
+  </div>
+  </div>`;
 });
 // =====================================================================================
