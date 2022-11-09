@@ -25,6 +25,13 @@
 
 ## Live Demo
 
+This is my Capeston Project hosted on GitHub pages, so if you want to check my Capeston Project online, please 😊 [Click here](https://mrkamin.github.io/Capeston-Project-JustCold/
+)
+
+## Vedio Record Lind 
+
+This is vedio record of my Capeston Project Loom, so to see the explanation of my project, please 😊 [Click here](https://www.loom.com/share/813b9d4dae9643959e3e6a601a70bd07
+)
 
 ## Getting Started
 
