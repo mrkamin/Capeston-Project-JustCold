@@ -167,6 +167,10 @@ a:active {
   border-radius: 30%;
 }
 
+.social-icon-logo:hover {
+  background-color: transparent;
+}
+
 /* || HEADER */
 .header {
   display: none;
@@ -195,14 +199,6 @@ a:active {
 .navbar-toggler:focus {
   box-shadow: none;
 }
-
-/* .profile-pic-logo {
-  width: 50px;
-  border: violet;
-  background-color: var(--C-BRAND);
-  background-size: cover;
-  border-radius: 20%;
-} */
 
 .navbar-nav.active {
   position: absolute;
@@ -685,7 +681,7 @@ a:active {
     color: var(--C-BASIC-FONT-COLOR);
   }
 
- /*  .profile-pic-logo {
+  /*  .profile-pic-logo {
     display: flex;
     width: 15%;
     background-color: var(--C-BASIC-BRAND);
