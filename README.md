@@ -30,10 +30,8 @@ This is my Capeston Project hosted on GitHub pages, so if you want to check my C
 
 ## Vedio Record Lind 
 
-This is vedio record of my Capeston Project Loom, so to see the explanation of my project, please 😊 [Click here](https://www.loom.com/share/813b9d4dae9643959e3e6a601a70bd07
-)
 
-## Getting Started
+This is vedio record of my Capeston Project Loom, so to see the explanation of my project, please 😊 [Click here](https://www.loom.com/share/fd27d217a3d44d45be02273c2a608053) .
 
 To get a local copy up and running follow these simple example steps.
 
